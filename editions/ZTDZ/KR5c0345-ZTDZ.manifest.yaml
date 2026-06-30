@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0345/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0345/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 玄霜掌上錄
+  date: '2015-08-29 00:56:21.314424'
+  source:
+    repository: kanripo
+    path: KR5c0345
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0345_000-ZTDZ.yaml, hash: 'sha256:6809c686eb9d7e95a81816662a8e02e2cbff60f6da7517ecf50028a32d931df4'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0345_000-ZTDZ.markers.yaml, hash: 'sha256:765b429e22d4c1a4b70a62dce98138140445196dd55456c76fd8916a8b056eb4'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0345_SJB_000-190368b
+    span:
+    - body
+    - 0
+    - 630
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:d8e720f32dbfe69eb6693167cf6ddd8216514c70dcf78050e365b62833bd4853
